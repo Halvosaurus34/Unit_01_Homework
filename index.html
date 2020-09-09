@@ -8,11 +8,12 @@
 </head>
 
 <body>
-    
+    <!-- changed semantics to header, nav -->
     <header>
         <h1>Hori<span id="seo">seo</span>n</h1>
         <nav>
             <ul>
+                <!-- added target="blank", added actual URLs -->
                 <li>
                     <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="blank">Search Engine Optimization</a>
                 </li>
@@ -26,10 +27,13 @@
         </nav>
     </header>
 
+    <!-- changed semantics to mainImage -->
     <div class="mainImage"></div>
 
+    <!-- changed elements to content, figure, figcaption. changed classes to contentArticle -->
     <content class="content">
         <figure class="contentArticle">
+            <!-- added alts to images -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="search-engine-optimization"/>
             <h2>Search Engine Optimization</h2>
             <figcaption>
@@ -51,23 +55,24 @@
             </figcaption>
         </figure>
     </content>
-
+    <!-- changed elements to aside, article. deleted classes within article -->
     <aside class="benefits">
-        <article id="benefit-lead">
+        <article>
             <h3>Lead Generation</h3>
+            <!-- added alts to the images -->
             <img src="./assets/images/lead-generation.png" alt="lead-generation" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
-        <article id="benefit-brand">
+        <article>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="brand-awareness"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
-        <article id="benefit-cost">
+        <article>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="cost-management"/>
             <p>
@@ -75,7 +80,7 @@
             </p>
         </article>
     </aside>
-
+    <!-- deleted footer class and changed element to footer -->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
