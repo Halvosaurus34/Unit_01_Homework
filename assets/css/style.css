@@ -107,7 +107,7 @@ aside img {
 } 
 
 /* condensed 3 classes into 1 */
-.contentArticle {
+#orManagement, #smMarketing, #seOptimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
